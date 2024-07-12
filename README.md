@@ -1,26 +1,35 @@
 Engineering materials
 ====
+The materials used for this project are:
 
-This repository contains engineering materials of a self-driven vehicle's model participating in the WRO Future Engineers competition in the season 2022.
+1. 2 plastic planks
+2. 2 Axle carriers
+3. 4 wheels
+4. 4 Hex coupler connector
+5. Screws
+6. Plastic separator
+7. L289N DC motor controller
+8. Genteric DC motor
+9. MG996R Servo motor
+10. Arduino MEGA board
+11. Wires
+12. 3 HC-SR04 Ultrasonic sensors
+13. Rubber bands
+14. 2 Elixes
+15. Vex battery for motor  
+16. 9v battery for arduino board
+17. Breadboard
 
-## Content
-
-* `t-photos` contains 2 photos of the team (an official one and one funny photo with all team members)
-* `v-photos` contains 6 photos of the vehicle (from every side, from top and bottom)
-* `video` contains the video.md file with the link to a video where driving demonstration exists
-* `schemes` contains one or several schematic diagrams in form of JPEG, PNG or PDF of the electromechanical components illustrating all the elements (electronic components and motors) used in the vehicle and how they connect to each other.
-* `src` contains code of control software for all components which were programmed to participate in the competition
-* `models` is for the files for models used by 3D printers, laser cutting machines and CNC machines to produce the vehicle elements. If there is nothing to add to this location, the directory can be removed.
-* `other` is for other files which can be used to understand how to prepare the vehicle for the competition. It may include documentation how to connect to a SBC/SBM and upload files there, datasets, hardware specifications, communication protocols descriptions etc. If there is nothing to add to this location, the directory can be removed.
 
 ## Introduction
+We begin with individual testing of physical elements such as distance sensors, servo motors, DC motors, and switches. This phase resulted in the creation of functional modules to control each component, thereby simplifying the main program.
+Once the physical testing phase was completed, we proceeded to integrate this part with the programming element containing:
++ Distance module
++ Turning module
++ Acceleration module
++ Brake module
 
-_This part must be filled by participants with the technical clarifications about the code: which modules the code consists of, how they are related to the electromechanical components of the vehicle, and what is the process to build/compile/upload the code to the vehicle’s controllers._
+This model will undergo robust evolution once it includes...
 
-## How to prepare the repo based on the template
-
-_Remove this section before the first commit to the repository_
-
-1. Clone this repo by using the `git clone` functionality.
-2. Remove `.git` directory
-3. [Initialize a new public repository on GitHub](https://github.com/new) by following instructions from "create a new repository on the command line" section (appeared after pressing "Create repository" button).
+As we delve into understanding the intricate workings of our vehicle's electromechanical systems, it is crucial to uncover the underlying code that governs these components. This exploration focuses on the sophisticated modules within our software architecture, their seamless integration with the vehicle's physical hardware, and the meticulous process of building, compiling, and uploading this code to the vehicle's controllers.
+Throughout this session, we will navigate the intersection of software and hardware, revealing how each line of code translates into actions within the vehicle's mechanical and electrical framework. By exploring these connections, we aim to deepen our understanding of the synergistic relationship between programming and engineering, which enhances the performance and functionality of our automotive technologies
