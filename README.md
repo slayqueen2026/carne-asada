@@ -18,7 +18,10 @@ The materials used for this project are:
 14. 2 Elixes
 15. Vex battery for motor  
 16. 9v battery for arduino board
-17. Breadboard
+17. Circuit plate
+18. Loose pins
+19. VL53L0/1XV2 Laser Ranging sensor 
+
 
 
 ## Introduction
@@ -36,10 +39,10 @@ Throughout this session, we will navigate the intersection of software and hardw
 
 
 ## Discussion
-_Shape of the car_ : we decided to make the shape of the two plates like that, because we were looking at a car building kit and the shape let us put the wheels in a way where we wouldn’t surpass the width limits of the car.
+_Shape of the Car_: The shape of the car was determined based on practical considerations. The decision was made to design the shape of the two plates in a specific way to accommodate the wheels without exceeding the width limits of the car. This design choice was influenced by observing a car building kit. Additionally, the shape and size of the car were designed to ensure that the VEX battery and Arduino plate could fit comfortably within the car's limits.
 
-_Vehicle mobility_ :  The car uses a combination of three ultrasonic sensors to tell distance, a servo motor to be able to make turns and a dc motor that moves the back wheels.
+_Vehicle Mobility_: To enable the vehicle to detect its direction and make appropriate turns, it utilizes a combination of two laser ranging sensors (one on the left and one on the right) and a servo motor. These sensors provide the necessary input for the vehicle to determine its position and navigate accordingly.
 
-_Power_:we used a VEX edr because it’s a lifepo4 battery that has a longer battery life, faster charging time  and has a more reduced weight.
+_Power_: The vehicle's Arduino plate is powered by a 9V battery, while the motor of the vehicle is powered by a VEX battery. The choice to use a VEX battery for the motor is due to its advantages, such as longer battery life, faster charging time, and reduced weight compared to other battery options.
 
-_Sensors_ : only uses ultrasonic sensors (for now).
+_Sensors_:Initially, three ultrasonic sensors were used, but they presented challenges in detecting the surroundings and had slow response times. As a result, a decision was made to switch to laser ranging sensors. Laser ranging sensors offer greater precision and faster response times, making them a more suitable choice for the vehicle's sensing needs.
