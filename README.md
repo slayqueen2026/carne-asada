@@ -13,14 +13,14 @@ The materials used for this project are:
 9. MG996R Servo motor
 10. Arduino MEGA board
 11. Wires
-12. 3 HC-SR04 Ultrasonic sensors
 13. Rubber bands
 14. 2 Elixes
-15. Vex battery for motor  
-16. 9v battery for arduino board
+15. Vex battery 
 17. Circuit plate
 18. Loose pins
-19. VL53L0/1XV2 Laser Ranging sensor 
+19. VL53L0/1XV2 Laser Ranging sensor
+20. Printed circuit boards
+21. Pins
 
 
 
